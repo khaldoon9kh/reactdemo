@@ -5,7 +5,8 @@ import { Col } from 'react-bootstrap'
 export default function TrailerList({data}) {
     let trailers = data.map(function(trailer) {
       return(
-        <Col xs={12} sm={6} md={4} key={trailer.id} >
+        ///will continue working on changing the size of the trailer video
+        <Col xs={12} sm={6} md={4} lg={1} key={trailer.id} >
           <Trailer trailer={trailer.key} />
         </Col>
       );
